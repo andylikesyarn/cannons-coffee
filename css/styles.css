@@ -49,6 +49,7 @@
     text-transform:uppercase;
     font-weight:normal;
   }
+
 img{
     max-width:100%;
 }
@@ -212,6 +213,7 @@ img{
 
 .content{
     align-items:center;
+    align-text:center;
 }
 
   .card1 {
