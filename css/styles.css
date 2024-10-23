@@ -210,6 +210,10 @@ img{
     margin: 0 auto;
   }
 
+.content{
+    align-items:center;
+}
+
   .card1 {
     display:grid;
     grid-template-columns:1fr 1fr;
@@ -267,7 +271,11 @@ img{
   - At desktop dimensions, the cards are 4 across */
 
   @media screen and (min-width: 900px) {
-    .card img {
+    .navbar{
+    justify-content:space-between;
+    }
+      
+      .card img {
       width:150px;
       margin:0;
       padding:0;
