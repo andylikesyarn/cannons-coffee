@@ -49,6 +49,9 @@
     text-transform:uppercase;
     font-weight:normal;
   }
+img{
+    max-width:100%;
+}
 
   h1{
     
