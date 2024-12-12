@@ -88,7 +88,7 @@ nav ul {
   justify-content: center;
 }
 
-.navbar {
+#navbar {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -99,12 +99,12 @@ nav ul {
   grid-template-columns: auto auto;
 }
 
-.navbar a {
+#navbar a {
   text-decoration: none;
   color: var(--white);
 }
 
-nav a {
+#navbar a {
   color: var();
   text-align: center;
   padding: 1rem;
@@ -254,20 +254,12 @@ footer img {
     margin: 1rem auto;
   }
 
-  nav ul {
+  #navbar {
     display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    background-color: var(--catalina);
-    padding: 1rem;
   }
 
-  nav ul.visible {
-    display: flex !important;
-    z-index: 1000;
+  #navbar.visible {
+    display: block;
   }
 
   #menu-open.visible,
@@ -284,8 +276,7 @@ footer img {
 /*Now let's add the navbar breakpoint*/
 
 @media screen and (max-width: 600px) {
-  nav {
-    display: flex;
+  #navbar {
     justify-content: center;
   }
 }
